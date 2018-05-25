@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	"http://www.jiuqi.com.cn/UI/Form"
+ -->
+<Form xmlns="http://www.jiuqi.com.cn/UI/Form" version="1.0">
+	<Controls title="Root Composite">
+		<Composite x="0" y="0" width="350" height="400" id="cmp_1" layout="Grid[marginBottom:20,marginLeft:20,marginRight:20,marginTop:20,vSpacing:10,columns:3]">
+			<Label id="lbl_1" layoutData="Grid[]">人员状态：</Label>
+			<Composite id="cmp_2" layoutData="Grid[width:237,height:35]"/>
+			<Label id="label_1" layoutData="Grid[]"/>
+			<Composite id="cmp_3" layoutData="Grid[vspan:1,span:2,width:301,height:64]"/>
+			<Label id="label_7" layoutData="Grid[]"/>
+			<Label id="lbl_2" layoutData="Grid[]">人员状态：</Label>
+			<Composite id="cmp_4" layoutData="Grid[width:237,height:34]"/>
+			<Label id="label_2" layoutData="Grid[]"/>
+			<Label id="lbl_3" layoutData="Grid[]">人员类别：</Label>
+			<Composite id="cmp_5" layoutData="Grid[width:238,height:32]"/>
+			<Label id="label_3" layoutData="Grid[]"/>
+			<Composite id="cmp_6" layoutData="Grid[vspan:1,span:2,width:302,height:64]"/>
+			<Label id="label_4" layoutData="Grid[]"/>
+			<Label id="lbl_4" layoutData="Grid[]">corpID：</Label>
+			<Text id="txt_corp" layoutData="Grid[width:237,height:21]"/>
+			<Label id="label_5" layoutData="Grid[]"/>
+			<Label id="lbl_5" layoutData="Grid[]">secret：</Label>
+			<Text id="txt_secret" layoutData="Grid[width:237,height:21]"/>
+			<Label id="label_6" layoutData="Grid[]"/>
+			<Composite id="cmp_7" layoutData="Grid[vspan:1,span:2,width:303,height:31]">
+				<Button x="133" y="8" width="75" height="23" id="btn_1" onAction="true">保存</Button>
+				<Button x="228" y="8" width="75" height="23" id="btn_2" onAction="true">取消</Button>
+			</Composite>
+		</Composite>
+	</Controls>
+	<Menus/>
+</Form>

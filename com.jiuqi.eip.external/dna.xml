@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dna>
+	<publish>
+		<services>
+			<!-- service space="dna/core" class="com.jiuqi.dna.core.XXService" -->
+		</services>
+		<orms>
+			<!-- orm space="dna/core" class="com.jiuqi.dna.core.XXORM" -->
+		</orms>
+		<commands>
+			<!-- command space="dna/core" class="com.jiuqi.dna.core.XXCommand" -->
+		</commands>
+		<querys>
+			<!-- query space="dna/core" class="com.jiuqi.dna.core.XXQuery" -->
+		</querys>
+		<tables>
+			<!--table space="dna/core" class="com.jiuqi.dna.core.impl.TD_BundleBin" /-->
+		</tables>
+		<ui-entrys>
+			<!--uientry class="com.jiuqi.dna.bap.workflowmanager.define.ui.DemoApplicationUIEntry" name="workflowdefine">
+				</uientry-->
+		</ui-entrys>
+		<pages>
+			<page space="\crm\ui" name="OutputWXStaffPage" class="com.jiuqi.eip.external.outputData.wxqyh.plantask.runner.OutputWXStaffPage"/>
+		</pages>
+		<ui-stylesheets>
+			<!-- stylesheet name="stylesheet" title="stylesheet" path="com/jiuqi/dna/ui/demo/stylesheet.css" -->
+		</ui-stylesheets>
+		<portlets>
+			<!-- portlet name="portlet" class="com.jiuqi.dna.ui.XXPortlet" -->
+		</portlets>
+		<modelFunctions>
+			<modelFunction modelName="BusinessModel" class="com.jiuqi.eip.external.function.ChineseToPinYinFunction"/>
+			<modelFunction modelName="BusinessModel" class="com.jiuqi.eip.external.function.InsertAimDetailTableFunction"/>
+			<modelFunction modelName="BusinessModel" class="com.jiuqi.eip.external.function.WriteBackNoDeleteToDetailFunction"/>
+			<modelFunction modelName="BusinessModel" class="com.jiuqi.eip.external.function.GetWeekDaysDuringPeriodFunction"/>
+			<modelFunction modelName="BusinessModel" class="com.jiuqi.eip.external.function.SetOtherTableFieldValue"/>
+		</modelFunctions>
+		<plantaskRunners>
+			<plantaskRunner class="com.jiuqi.eip.external.outputData.wxqyh.plantask.runner.OutputWXStaffRunnerFactory"/>
+		</plantaskRunners>
+		<templates/>
+	</publish>
+</dna>
